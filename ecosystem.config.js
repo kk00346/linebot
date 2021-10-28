@@ -11,7 +11,7 @@ module.exports = {
       "host": ["139.162.112.61"],
       "ref": "origin/master",
       "repo": "git@bitbucket.org:mejor-technology/node-linebot.git",
-      "path": "/var/node/node-linebot",
+      "path": "/root/node/linebot",
       "pre-deploy": "git fetch --all",
       "post-deploy": "npm install && pm2 startOrRestart ecosystem.config.js --env production"
     }
